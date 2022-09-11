@@ -5,6 +5,8 @@
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
 }
 
 .profileImg{
@@ -13,6 +15,10 @@
     border: 2px solid blue;
     border-radius: 360%;
 
+}
+
+body{
+    background-color:#ecf0f1;
 }
 
 .shares{
@@ -48,11 +54,13 @@ button{
     color: grey;
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
 }
 
 button:hover{
     background-color: #cccccc;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .imgUrl{
